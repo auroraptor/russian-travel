@@ -1,0 +1,6 @@
+.photo-grid {
+  min-height: calc(100vh - 72px);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}

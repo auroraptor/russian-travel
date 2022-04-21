@@ -1,0 +1,21 @@
+/* @import url(../fonts/Inter-3/Inter\ Web/inter.css); */
+@import url(../vendor/normalize.css);
+@import url(../vendor/inter.css);
+/* @import url(../); */
+@import url(../blocks/root/root.css);
+/* blocks */
+@import url(../blocks/header/header.css);
+@import url(../blocks/lang-nav/lang-nav.css);
+@import url(../blocks/photo-grid/proto-grid.css);
+@import url(../blocks/cover/cover.css);
+/* elements */
+@import url(../blocks/lang-nav/__item/lang-nav__item.css);
+@import url(../blocks/lang-nav/__lang-link/lang-nav__lang-link.css);
+@import url(../blocks/lang-nav/__list/lang-nav__list.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+/* mod */
+@import url(../blocks/intro/__list/_key/intro__list_key.css);
+@import url(../blocks/intro/__list/_value/intro__list_value.css);
+
+

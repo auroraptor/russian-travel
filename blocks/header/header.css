@@ -1,3 +1,125 @@
-.header {
-  background-color: #2A2C2F;
+.header { background-color: #2A2C2F;}
+
+.header__container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+ }
+
+.header__logo {
+  margin: 0;
+}
+
+.main-nav__list {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+ }
+
+.main-nav__lang-link {
+  color: #ffffff;
+  font-family: 'Inter';
+  font-weight: 400;
+  text-decoration: none;
+ }
+
+@media screen and (max-width: 425px){
+  .header__container {
+    max-width: 90%;
+  }
+  .header__logo {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-width: 44.375%;
+  }
+  .main-nav {
+    margin-top: 30px;
+  }
+
+  .main-nav__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .header__container {
+    max-width: 93.75%;
+  }
+  .header__logo {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    width: 176px;
+    height: 52px;
+  }
+  .main-nav {
+    margin-top: 46px;
+   }
+
+  .main-nav__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header__container {
+    max-width: 90.6%;
+  }
+  .header__logo {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    width: 176px;
+    height: 52px;
+  }
+  .main-nav {
+    margin-top: 46px;
+   }
+
+  .main-nav__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .header__container {
+    max-width: 93.75%;
+  }
+  .header__logo {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    width: 176px;
+    height: 52px;
+  }
+  .main-nav {
+    margin-top: 46px;
+   }
+
+  .main-nav__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .header__container {
+    max-width: 93.75%;
+  }
+  .header__logo {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    width: 176px;
+    height: 52px;
+  }
+  .main-nav {
+    margin-top: 46px;
+   }
+
+  .main-nav__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }

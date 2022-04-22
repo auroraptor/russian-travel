@@ -1,8 +1,0 @@
-.main-nav__list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 5%;
-  margin: 0;
-}

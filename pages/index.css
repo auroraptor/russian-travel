@@ -4,18 +4,18 @@
 /* @import url(../); */
 @import url(../blocks/root/root.css);
 /* blocks */
+/* header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/lang-nav/lang-nav.css);
+/* lead */
+@import url(../blocks/lead/lead.css);
+/* photo-grid */
 @import url(../blocks/photo-grid/proto-grid.css);
 @import url(../blocks/cover/cover.css);
 /* elements */
-@import url(../blocks/lang-nav/__item/lang-nav__item.css);
-@import url(../blocks/lang-nav/__lang-link/lang-nav__lang-link.css);
-@import url(../blocks/lang-nav/__list/lang-nav__list.css);
-@import url(../blocks/logo/logo.css);
+/* header */
+/* lead */
+@import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* mod */
-@import url(../blocks/intro/__list/_key/intro__list_key.css);
-@import url(../blocks/intro/__list/_value/intro__list_value.css);
-
+@import url(../blocks/logo/_place/logo_place_header.css);
 

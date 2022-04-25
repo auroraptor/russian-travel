@@ -1,7 +1,13 @@
 .page {
-  margin: 0;
-  /* background-color: #2A2C2F; */
-  font-family: 'Inter';
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  /* margin: 0; */
+  background-color: #2A2C2F;
+  color: #fff;
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 div, nav, section, h1, h2, h3, h4, h5, h6, a, dl, dt, dd, img, p, ol, ul, li, article {

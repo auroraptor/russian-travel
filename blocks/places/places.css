@@ -1,0 +1,7 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #2A2C2F; */
+  /* color: #ffffff; */
+  padding-bottom: 66px;
+}

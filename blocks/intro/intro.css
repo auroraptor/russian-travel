@@ -1,8 +1,8 @@
 .intro {
   display: flex;
   flex-direction: column;
-  background-color: #2A2C2F;
-  color: #ffffff;
+  /* background-color: #2A2C2F; */
+  /* color: #ffffff; */
 }
 
 .intro__title {
@@ -37,7 +37,6 @@
 
 .intro__list_key {
   display: inline;
-
 }
 
 .intro__list_value {

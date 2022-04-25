@@ -9,9 +9,12 @@
 /* lead */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
 /* photo-grid */
 @import url(../blocks/photo-grid/proto-grid.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/footer/footer.css);
 /* elements */
 /* header */
 /* lead */

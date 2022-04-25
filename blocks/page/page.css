@@ -1,10 +1,10 @@
-.root {
+.page {
   margin: 0;
   /* background-color: #2A2C2F; */
   font-family: 'Inter';
 }
 
-div, nav, section, h1, h2, h3, h4, h5, h6, a, img, ol, ul, li, article {
+div, nav, section, h1, h2, h3, h4, h5, h6, a, dl, dt, dd, img, p, ol, ul, li, article {
   outline-style: solid;
   outline-color: red;
 }

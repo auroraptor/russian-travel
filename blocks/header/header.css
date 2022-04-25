@@ -7,6 +7,8 @@
  }
 
 .header__logo {
+  width: 176px;
+  min-width: 142px;
   margin: 0;
 }
 
@@ -25,7 +27,7 @@
   text-decoration: none;
  }
 
-@media screen and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 425px){
   .header__container {
     max-width: 90%;
   }

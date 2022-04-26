@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6, a, dl, dt, dd, img, p, ol, article {
+h2, h3, h4, h5, h6, a, dl, dt, dd, ol, article {
   outline-style: solid;
   outline-color: red;
 }
@@ -37,4 +37,19 @@ ul {
 li {
   outline-style: dotted;
   color:rgb(143, 236, 236)
+}
+
+h1 {
+  outline-style: double;
+  color: pink;
+}
+
+p {
+  outline-style: dotted;
+  color:skyblue;
+}
+
+img {
+  outline-style: double;
+  color: coral;
 }

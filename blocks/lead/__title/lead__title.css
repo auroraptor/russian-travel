@@ -1,3 +1,41 @@
 .lead__title {
-  display: flex;
+  text-align: center;
+  align-self: center;
+  margin: 32px 16px 0;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+}
+
+@media (min-width: 425px) and (max-width:768px) {
+  .lead__title {
+    font-size: calc(40px + ( (100vw - 425px) / (768 - 425) ) * (96 - 40) );
+    line-height: calc(44px + ( (100vw - 425px) / (768 - 425) ) * (100 - 44) );
+    /* пока оставлю отступ статичным но можно и calc() прописать и еще добавить 320-424 на него */
+    margin: 20px 24px 0;
+  }
+}
+/* ниже свойство шрифты выросли и не меняются больше */
+@media (min-width:769px) {
+  .lead__title {
+    font-size: 96px;
+    line-height: 100px;
+  }
+}
+/* margin растет по формуле  */
+@media (min-width:769px) and (max-width: 1024px) {
+  .lead__title {
+    margin-left: calc(24px +  (100vw - 769px) / (1024 - 769) * (152 - 24) );
+    margin-right: calc(24px +  (100vw - 769px) / (1024 - 769) * (152 - 24) );
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .lead__title {
+    margin-left: calc(152px +  (100vw - 1025px) / (1280 - 1025) * (280 - 152) );
+    margin-right: calc(152px +  (100vw - 1025px) / (1280 - 1025) * (280 - 152) );
+    /* margin-top: 56px; */
+    margin-top: calc(20px +  (100vw - 1025px) / (1280 - 1025) * (28 - 20) );
+  }
 }

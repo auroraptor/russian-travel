@@ -1,0 +1,45 @@
+.lead__subtitle {
+  text-align: center;
+  align-self: center;
+  font-weight: 400;
+  margin: 16px 16px 40px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* на mobile до 425px шрифт не растет решила так  */
+
+@media (min-width: 425px) and (max-width:768px) {
+  .lead__subtitle {
+    /* font-size: 30px;
+    line-height: 36px; */
+    font-size: calc(16px + ( (100vw - 425px) / (768 - 425) ) * (30 - 16) );
+    line-height: calc(20px + ( (100vw - 425px) / (768 - 425) ) * (36 - 20) );
+    margin: 32px 64px 56px;
+  }
+}
+@media (min-width: 769px) {
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+@media (min-width:769px) and (max-width: 1024px) {
+  .lead__subtitle {
+    margin-left: calc(64px +  (100vw - 769px) / (1024 - 769) * (192 - 64) );
+    margin-right:  calc(64px +  (100vw - 769px) / (1024 - 769) * (192 - 64) );
+    margin-top: 32px;
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .lead__subtitle {
+    margin-left: calc(192px +  (100vw - 1025px) / (1280 - 1025) * (320 - 192) );
+    margin-right: calc(192px +  (100vw - 1025px) / (1280 - 1025) * (320 - 192) );
+    margin-top: 32px;
+    /* margin-bottom: 64px; */
+    margin-bottom: calc(56px +  (100vw - 1025px) / (1280 - 1025) * (64 - 56) );;
+  }
+}
+

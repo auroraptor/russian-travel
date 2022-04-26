@@ -1,0 +1,17 @@
+.header__main-nav {
+  align-self: start;
+  padding-top: 14px;
+  /* margin 16px + padding 14px */
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .header__main-nav {
+    padding-top: calc(14px + ( (100vw - 425px) / (768 - 425) ) * (18 - 14));
+  }
+}
+
+@media (min-width: 769px) {
+  .header__main-nav {
+    padding-top: 18px;
+  }
+}

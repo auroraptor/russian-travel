@@ -11,20 +11,21 @@
   <div class="page">
   <header class="header">
     <div class="header__container">
-      <img class="header__logo" src="images/header-logo.svg" alt="Логотип">
-      <nav class="main-nav" aria-label="Lang">
-        <ol class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__lang-link">Ru</a>
+      <img class="header__logo" src="images/header-logo.svg" alt="Логотип - карта России">
+      <nav class="header__main-nav" aria-label="Lang">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__lang-link header__lang-link_lang_ru">Ru</a>
           </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__lang-link">En</a>
+          <li class="header__item">
+            <a href="#" class="header__lang-link">En</a>
           </li>
-        </ol>
+        </ul>
       </nav>
     </div>
   </header>
    <main class="content">
+     <!-- TODO названия классов единообразными сделать  -->
     <section class="lead">
       <h1 class="lead__title">Путешествия по&nbsp;России</h1>
       <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
@@ -34,6 +35,7 @@
     <section class="intro">
       <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
       <p class="intro__subtitle">По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана. А&nbsp;ещё увидеть все эти красоты можно без миллионов на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как, например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые интересные места, достойные вашего отпуска.</p>
+      <!-- TODO переделать на ul/li -->
       <dl class="intro__list">
         <dt class="intro__list_key">Часовых поясов
         <dd class="intro__list_value">11<br>
@@ -122,8 +124,9 @@
         </div>
       </arcticle>
     </section>
+    <!-- TODO должны быть все 6 заголовков от h1 до h6 -->
     <section class="cover">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala">
+      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
       <h4 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h4>
       <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
       </a>
@@ -131,14 +134,14 @@
   </main>
   <footer class="footer">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <ol class="breadcrumb__list">
+      <ul class="breadcrumb__list">
         <li class="breadcrumb__item"><a class="breadcrumb__link" href="https://yandex.ru/maps">Карты</a></li>
         <li class="breadcrumb__item"><a class="breadcrumb__link" href="https://yandex.ru/pogoda">Погода</a></li>
         <li class="breadcrumb__item"><a class="breadcrumb__link" href="https://rasp.yandex.ru">Расписание</a></li>
         <li class="breadcrumb__item"><a class="breadcrumb__link" href="https://calendar.yandex.ru">Календарь</a></li>
         <li class="breadcrumb__item"><a class="breadcrumb__link" href="https://travel.yandex.ru">Путешествия</a></li>
         <li class="breadcrumb__item"><p class="breadcrumb__copyright">&copy; 2022. Аврора Ренард</p></li>
-      </ol>
+      </ul>
     </nav>
   </footer>
   </div>

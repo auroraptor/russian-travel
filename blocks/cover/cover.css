@@ -1,19 +1,30 @@
 .cover {
-  background-color: #2A2C2F;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-  color: #ffffff;
-  width: 320px;
-  height: 200px;
+  width: 100vw;
+  min-height: 200px;
+  height: 62.5vw;
+  position: relative;
 }
 .cover::before {
   content: '';
   background-color: #2A2C2F;
   opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: opacity .5s linear;
 }
 
 .cover:hover::before {
   opacity: 0.8;
+}
+
+.cover__link {
+  position: relative;
+  text-decoration: none;
 }
 
 .cover__title {

@@ -1,8 +1,17 @@
 .intro {
   display: flex;
   width: 100%;
+  /* max-width: 984px; */
+  /* display: flex; */
+  /* align-self: center; */
   /* height: (882 - 32 - 32) / 320; */
   /* height: 255.625vw; */
 }
 
-
+@media (min-width: 1281) {
+.intro {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding-right: 294px;
+  }
+}

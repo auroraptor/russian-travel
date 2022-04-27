@@ -7,7 +7,7 @@
   line-height: 44px;
 }
 
-@media (min-width: 425px) and (max-width:768px) {
+@media (min-width: 425px) {
   .lead__title {
     font-size: calc(40px + ( (100vw - 425px) / (768 - 425) ) * (96 - 40) );
     line-height: calc(44px + ( (100vw - 425px) / (768 - 425) ) * (100 - 44) );
@@ -23,7 +23,7 @@
   }
 }
 /* margin растет по формуле  */
-@media (min-width:769px) and (max-width: 1024px) {
+@media (min-width:769px) {
   .lead__title {
     margin-left: calc(24px +  (100vw - 769px) / (1024 - 769) * (152 - 24) );
     margin-right: calc(24px +  (100vw - 769px) / (1024 - 769) * (152 - 24) );

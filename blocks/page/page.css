@@ -6,6 +6,10 @@
   background-color: #2A2C2F;
   color: #fff;
   font-family: 'Inter', 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

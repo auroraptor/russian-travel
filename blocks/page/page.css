@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h2, h3, h4, h5, h6, a, dl, dt, dd, ol, article {
+h3, h4, h5, h6, a, dl, dt, dd, ol, article {
   outline-style: solid;
   outline-color: red;
 }
@@ -52,4 +52,9 @@ p {
 img {
   outline-style: double;
   color: coral;
+}
+
+h2 {
+  outline-style: solid;
+  color: rgb(223, 255, 80);
 }

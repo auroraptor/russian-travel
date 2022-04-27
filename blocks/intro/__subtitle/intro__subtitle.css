@@ -1,0 +1,21 @@
+.intro__subtitle {
+  margin: 40px 0 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: start;
+  /* line-height: 163%; задан в макете но не проходит под размеры блока поэтому уменьшаю его немножк чтобы высота блока subtitle соответствовала макету */
+  /* line-height: 24.77px; */
+  /* line-height: calc(26 / 16); */
+  line-height: 155%;
+  /* height: 520px; */
+}
+
+@media screen and (max-width: 768px) {
+  .intro__subtitle {
+/* TODO через calc() выразить */
+    line-height: 163%;
+  }
+}
+
+

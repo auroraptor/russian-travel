@@ -31,7 +31,13 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-
+/* into__ */
+@import url(../blocks/intro/__card/intro__card.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__item/intro__item.css);
+@import url(../blocks/intro/__item-second/intro__item-second.css);
 /* photo-grid__ */
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 /* mod */

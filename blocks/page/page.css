@@ -6,11 +6,15 @@
   background-color: #2A2C2F;
   color: #fff;
   font-family: 'Inter', 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h3, h4, h5, h6, a, dl, dt, dd, ol, article {
+h3, h4, h5, h6, a, dl, dt, dd, ol {
   outline-style: solid;
   outline-color: red;
 }
@@ -57,4 +61,9 @@ img {
 h2 {
   outline-style: solid;
   color: rgb(223, 255, 80);
+}
+
+article {
+  outline-style: dotted;
+  color:rgb(121, 121, 233)
 }

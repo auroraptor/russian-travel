@@ -1,0 +1,15 @@
+.place__main-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media (min-width: 425px) {
+  .place__main-text {
+    margin: 0;
+  }
+}

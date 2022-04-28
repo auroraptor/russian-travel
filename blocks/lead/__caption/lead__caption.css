@@ -19,9 +19,16 @@
   }
 }
 
-@media (min-width:1025px) {
+@media (min-width:1025px) and (max-width: 1280px){
   .lead__caption {
     margin-left: calc(48px + ( (100vw - 1025px) / (1280 - 1025) ) * (148 - 48) );
   }
 }
 
+@media (min-width: 1281px) {
+  .lead__caption {
+    width: 984px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

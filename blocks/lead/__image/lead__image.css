@@ -1,27 +1,26 @@
 .lead__image {
   width: 100%;
-  height: 62.5vw;
+  /* min-height: 62.5vw; */
   margin: 0 auto;
-
 }
 
-@media (min-width:769px) and (max-width: 1024px) {
+@media (min-width:768px) {
   .lead__image {
     width: calc(768px +  (100vw - 769px) / (1024 - 769) * (928 - 768) );
-    height: calc(480px + (100vw - 769px) / (1024 - 769) * (580 - 480) );
+    min-height: calc(480px + (100vw - 769px) / (1024 - 769) * (580 - 480) );
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) {
   .lead__image {
     width: calc(928px +  (100vw - 1025px) / (1280 - 1025) * (984 - 928) );
-    height: calc(580px + (100vw - 1025px) / (1280 - 1025) * (615 - 580) );
+    min-height: calc(580px + (100vw - 1025px) / (1280 - 1025) * (615 - 580) );
   }
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1280px) {
   .lead__image {
     width: 984px;
-    height: 615px;
+    min-height: 615px;
   }
 }

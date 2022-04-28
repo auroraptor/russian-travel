@@ -47,5 +47,9 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__main-text/place__main-text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+/* cover__ */
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__link/cover__link.css);
 /* mod */
 @import url(../blocks/header/__lang-link/_lang/header__lang-link_lang_ru.css);

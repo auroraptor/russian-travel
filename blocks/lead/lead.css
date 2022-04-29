@@ -1,24 +1,5 @@
 .lead {
   display: flex;
   flex-direction: column;
-  /* min-height: margin-top: 32px + h1: 88px + margin: 16px + p: 40px + margin: 40px + img: 200px + margin-top: 8px + caption: 14px */
   min-height: 438px;
-  /* height: 136.875vw; */
 }
-
-/* @media (min-width:425px) and (max-width:768px) {
-  .lead {
-    height: calc(470px + ( (100vw - 425px) / (768 - 425) * (882 - 438) ) );
-  }
-} */
-/* @media (min-width:769px) and (max-width: 1024px) {
-  .lead {
-    height: calc(922px + ( (100vw - 769px) / (1024 - 769) * (1022 - 922) ) );
-  }
-}
-
-@media (min-width: 1025px) {
-  .lead {
-    height: calc(1022px + ( (100vw - 1025px) / (1280 - 1025) * (1073 - 1022) ) );
-  }
-} */

@@ -1,10 +1,7 @@
 .footer {
   display: flex;
-  /* margin: 0 auto; */
   justify-content: space-between;
   flex-direction: column;
-  /* flex-wrap: wrap; */
-  /* max-width: 1184px; */
 }
 
 @media (min-width: 768px) {
@@ -18,9 +15,8 @@
 @media (min-width: 1280px) {
 .footer {
   width: 1184px;
-  /* margin: 92px auto 24px; */
   margin: 0 auto;
-}
+  }
 }
 
 

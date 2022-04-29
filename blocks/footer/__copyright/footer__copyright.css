@@ -13,7 +13,6 @@
     line-height: 16px;
     margin-right: 16px;
     margin-top: 90px;
-    /* margin-top: calc(48px + ( (100vw - 425px) / (768 - 425) ) * (90 - 48)); */
   }
 }
 

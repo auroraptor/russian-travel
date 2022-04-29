@@ -9,7 +9,7 @@
 
 /* на mobile до 425px шрифт не растет решила так  */
 
-@media (min-width: 425px) and (max-width:768px) {
+@media (min-width: 425px) {
   .lead__subtitle {
     /* font-size: 30px;
     line-height: 36px; */
@@ -18,14 +18,10 @@
     margin: 32px 64px 56px;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .lead__subtitle {
     font-size: 30px;
     line-height: 36px;
-  }
-}
-@media (min-width:769px) and (max-width: 1024px) {
-  .lead__subtitle {
     margin-left: calc(64px +  (100vw - 769px) / (1024 - 769) * (192 - 64) );
     margin-right:  calc(64px +  (100vw - 769px) / (1024 - 769) * (192 - 64) );
     margin-top: 32px;
@@ -33,7 +29,7 @@
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .lead__subtitle {
     margin-left: calc(192px +  (100vw - 1025px) / (1280 - 1025) * (320 - 192) );
     margin-right: calc(192px +  (100vw - 1025px) / (1280 - 1025) * (320 - 192) );

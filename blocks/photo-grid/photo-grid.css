@@ -38,11 +38,9 @@
     padding-bottom: 92px;
   }
 }
-/* нужно ли ниже добавить еще один запрос меди на 1280+ или ограничится этими */
 
 @media (min-width: 1280px) {
   .photo-grid {
-    /* width: 1184px; */
     grid-template-columns: repeat(auto-fit, 284px);
   }
 }

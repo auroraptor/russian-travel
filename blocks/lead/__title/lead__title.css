@@ -16,22 +16,18 @@
   }
 }
 /* ниже свойство шрифты выросли и не меняются больше */
-@media (min-width:769px) {
+@media (min-width:768px) {
   .lead__title {
     font-size: 96px;
     line-height: 100px;
-  }
-}
-/* margin растет по формуле  */
-@media (min-width:769px) {
-  .lead__title {
     margin-left: calc(24px +  (100vw - 769px) / (1024 - 769) * (152 - 24) );
     margin-right: calc(24px +  (100vw - 769px) / (1024 - 769) * (152 - 24) );
     margin-top: 20px;
   }
 }
+/* margin растет по формуле  */
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .lead__title {
     margin-left: calc(152px +  (100vw - 1025px) / (1280 - 1025) * (280 - 152) );
     margin-right: calc(152px +  (100vw - 1025px) / (1280 - 1025) * (280 - 152) );

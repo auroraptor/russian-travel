@@ -7,25 +7,25 @@
   margin: 8px auto 0 16px;
 }
 
-@media (min-width: 425px) and (max-width:768px) {
+@media (min-width: 425px) {
   .lead__caption {
     margin-left: calc(16px + ( (100vw - 425px) / (768 - 425) ) * (24 - 16) );
   }
 }
 
-@media (min-width:769px) and (max-width: 1024px) {
+@media (min-width:768px) {
   .lead__caption {
     margin-left: calc(24px + ( (100vw - 769px) / (1024 - 769) ) * (48 - 24) );
   }
 }
 
-@media (min-width:1025px) and (max-width: 1280px){
+@media (min-width:1024px) {
   .lead__caption {
     margin-left: calc(48px + ( (100vw - 1025px) / (1280 - 1025) ) * (148 - 48) );
   }
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1280px) {
   .lead__caption {
     width: 984px;
     margin-left: auto;

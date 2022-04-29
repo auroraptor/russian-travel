@@ -1,5 +1,4 @@
 .header {
-  /* (margin-top:16px + logo:42px + margin-bottom:16px) / 320 */
   height: 23.125vw;
   width: 100%;
   max-width: 1280px;
@@ -7,7 +6,7 @@
   display: flex;
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 425px) {
   .header {
     height: calc( 74px + ( (100vw - 425px) / (768 - 425) ) * (108 - 74) );
     /* как растет высота от 74px до 104px дальше высота блока фиксированной остается
@@ -19,4 +18,3 @@
   .header {height: 108px;}
 }
 
-/* все ок с резиновостью блока*/

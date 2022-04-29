@@ -2,6 +2,8 @@
   /* (margin-top:16px + logo:42px + margin-bottom:16px) / 320 */
   height: 23.125vw;
   width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
 }
 

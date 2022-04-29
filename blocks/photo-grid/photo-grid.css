@@ -1,7 +1,9 @@
 .photo-grid {
   display: grid;
+  justify-content: center ;
   gap: 12px;
   width: 90%;
+  max-width: 1280px;
   padding-top: 64px 0;
   padding-bottom: 64px;
   margin: 0 auto;
@@ -10,7 +12,7 @@
 
 @media (min-width: 425px) {
   .photo-grid {
-    width: calc(288px + ( (100vw - 425px) / (768 - 425) ) * (720 - 288) );
+    width: calc(288px + ( (100vw - 425px) / (768 - 425) ) * (352 - 288) );
     gap: calc(12px + ( (100vw - 425px) / (768 - 425) ) * (16 - 12) );
     padding-top: calc(64px + ( (100vw - 425px) / (768 - 425) ) * (88 - 64) );
     padding-bottom: calc(64px + ( (100vw - 425px) / (768 - 425) ) * (88 - 64) );
@@ -30,8 +32,17 @@
 @media (min-width: 1024px) {
   .photo-grid {
     width: calc(928px + ( (100vw - 1024px) / (1280 - 1024) ) * (1184 - 928) );
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 284px));
     gap: calc(14px + ( (100vw - 1024px) / (1280 - 1024) ) * (16 - 14) );
+    padding-top: 92px;
+    padding-bottom: 92px;
   }
 }
-/* нужно ли ниже добавить еще один запрос меди на 1280+ или ограничится этими  */
+/* нужно ли ниже добавить еще один запрос меди на 1280+ или ограничится этими */
+
+@media (min-width: 1280px) {
+  .photo-grid {
+    /* width: 1184px; */
+    grid-template-columns: repeat(auto-fit, 284px);
+  }
+}

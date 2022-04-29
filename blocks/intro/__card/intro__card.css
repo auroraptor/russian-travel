@@ -2,11 +2,12 @@
   margin-right: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   width: 288px;
   margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 425px) {
   .intro__card {
     /* я тут оставляю из макета значины ширины чтобы от них писать calc() width: 720px; */
     width: calc(288px +  (100vw - 320px) / (768 - 320) * (720 - 288) );
@@ -32,12 +33,12 @@
   }
 }
 
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
   .intro__card {
-    width: 690px;
+    width: 690px; */
     /* margin-left: calc(148px +  (100vw - 1281px) / (100vw - 1280) * ( ... - 148 ); */
     /* margin-left: auto; */
-    margin-right: auto;
+    /* margin-right: auto; */
     /* ^ вопросик для Миши (вопросик разрешился -- надо было убрать margin-left: auto и все работало как надо, никаких calc() не потребовалось -- ну магия ж )*/
-  }
-}
+  /* }
+} */

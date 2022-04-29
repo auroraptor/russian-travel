@@ -1,18 +1,7 @@
 .intro {
   display: flex;
-  width: 100%;
-  /* max-width: 984px; */
-  /* display: flex; */
-  /* align-self: center; */
-  /* height: (882 - 32 - 32) / 320; */
-  /* height: 255.625vw; */
+  /* width: 100%; */
+
 }
 
-/* @media (min-width: 1280) {
-.intro__help {
-  width: 984px;
-  display: flex;
-  justify-content: start;
-  }
-} */
 

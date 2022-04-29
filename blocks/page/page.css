@@ -2,7 +2,8 @@
   box-sizing: border-box;
   width: 100%;
   min-width: 320px;
-  /* margin: 0; */
+  /* max-width: 1280px; */
+  margin: 0 auto;
   background-color: #2A2C2F;
   color: #fff;
   font-family: 'Inter', 'Arial', sans-serif;
@@ -12,58 +13,4 @@
   /* align-items: center; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-h3, h4, h5, h6, a, dl, dt, dd, ol {
-  outline-style: solid;
-  outline-color: red;
-}
-
-section {
-  outline-style: dotted;
-}
-
-div {
-  outline-style: dashed;
-  color: greenyellow;
-}
-
-nav {
-  outline-style: groove;
-  color: navy;
-}
-
-ul {
-  outline-style: dashed;
-  color: rgb(84, 177, 177);
-}
-
-li {
-  outline-style: dotted;
-  color:rgb(143, 236, 236)
-}
-
-h1 {
-  outline-style: double;
-  color: pink;
-}
-
-p {
-  outline-style: dotted;
-  color:skyblue;
-}
-
-img {
-  outline-style: double;
-  color: coral;
-}
-
-h2 {
-  outline-style: solid;
-  color: rgb(223, 255, 80);
-}
-
-article {
-  outline-style: dotted;
-  color:rgb(121, 121, 233)
 }

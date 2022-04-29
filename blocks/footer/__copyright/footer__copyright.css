@@ -1,0 +1,32 @@
+.footer__copyright {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  margin-top: 48px;
+}
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    line-height: 16px;
+    margin-right: 16px;
+    margin-top: 90px;
+    /* margin-top: calc(48px + ( (100vw - 425px) / (768 - 425) ) * (90 - 48)); */
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__copyright {
+    margin-right: 48px;
+    margin-top: 94px;
+
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__copyright {
+    margin-right: 0;
+  }
+}

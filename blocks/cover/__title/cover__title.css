@@ -11,7 +11,7 @@
 @media (min-width: 425px) {
   .cover__title {
     font-size: calc( 32px + ( (100vw - 425px) / (768 - 425) * (72 - 32) ) );
-    line-height: calc( 35px + ( (100vw - 425px) / (768 - 425) * (76 - 35) ) );;
+    line-height: calc( 35px + ( (100vw - 425px) / (768 - 425) * (76 - 35) ) );
   }
 }
 

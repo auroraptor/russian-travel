@@ -35,7 +35,7 @@
     margin-right: calc(192px +  (100vw - 1025px) / (1280 - 1025) * (320 - 192) );
     margin-top: 32px;
     /* margin-bottom: 64px; */
-    margin-bottom: calc(56px +  (100vw - 1025px) / (1280 - 1025) * (64 - 56) );;
+    margin-bottom: calc(56px +  (100vw - 1025px) / (1280 - 1025) * (64 - 56) );
   }
 }
 

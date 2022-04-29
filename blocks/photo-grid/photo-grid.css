@@ -1,6 +1,6 @@
 .photo-grid {
   display: grid;
-  justify-content: center ;
+  justify-content: center;
   gap: 12px;
   width: 90%;
   max-width: 1280px;

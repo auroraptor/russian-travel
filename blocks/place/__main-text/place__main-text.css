@@ -13,3 +13,15 @@
     margin: 0;
   }
 }
+
+@media (min-width: 768px) {
+  .place__main-text {
+    font-size: calc(16px + ( (100vw - 768px) / (1024 - 768) ) * (18 - 16) );
+  }
+}
+
+@media(min-width: 1024px) {
+  .place__main-text {
+    font-size: 18px;
+  }
+}

@@ -3,26 +3,19 @@
   justify-content: space-between;
   align-items: center;
   min-width: 90%;
-  margin: auto;
+  margin: 16px auto;
  }
-
-
- @media (min-width: 425px) {
-  .header__container {
-    min-width: 93.75%;
-    max-height: 52px;
-  }
-}
 
 @media (min-width: 768px) {
   .header__container {
-    width: 90.625%;
+    margin: 28px auto;
   }
 }
 
 @media (min-width: 1024px) {
   .header__container {
     width: 92.5%;
+    margin: 28px 48px;
   }
 }
 

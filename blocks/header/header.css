@@ -1,20 +1,7 @@
 .header {
-  height: 23.125vw;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
-}
-
-@media (min-width: 425px) {
-  .header {
-    height: calc( 74px + ( (100vw - 425px) / (768 - 425) ) * (108 - 74) );
-    /* как растет высота от 74px до 104px дальше высота блока фиксированной остается
-    высота (28px + 52px(logo) + 28px) */
-  }
-}
-
-@media (min-width: 769px) {
-  .header {height: 108px;}
 }
 

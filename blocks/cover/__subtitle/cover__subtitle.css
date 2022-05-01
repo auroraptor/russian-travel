@@ -7,3 +7,17 @@
   margin: 0 16px;
   max-width: 360px;
 }
+
+@media (min-width: 425px) {
+  .cover__subtitle {
+    font-size: calc(14px + ( (100vw - 425px) / (768 - 425) ) * (18 - 14) );
+    line-height: calc(16px + ( (100vw - 425px) / (768 - 425) ) * (22 - 16) );
+  }
+}
+
+@media (min-width: 768px) {
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

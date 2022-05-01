@@ -2,16 +2,26 @@
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   width: 100vw;
-  height: 62.5vw;
-  margin: 0 auto;
+  min-height: 62.5vw;
+  margin: 16px auto 0;
   max-width: 1184px;
-  max-height: 740px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 768px) {
+  .cover {
+    margin-top: 17px;
+  }
+}
+@media (min-width: 1024px) {
+  .cover {
+    margin-top: 12px;
+  }
+}
+
 .cover::before {
   content: '';
   background-color: #2A2C2F;

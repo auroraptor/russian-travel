@@ -9,7 +9,6 @@
 
 @media (min-width: 425px) {
   .intro__card {
-    /* я тут оставляю из макета значины ширины чтобы от них писать calc() width: 720px; */
     width: calc(288px +  (100vw - 320px) / (768 - 320) * (720 - 288) );
     margin-left: calc(16px +  (100vw - 320px) / (768 - 320) * (24 - 16) );
     margin-right: calc(16px +  (100vw - 320px) / (768 - 320) * (24 - 16) );
@@ -18,7 +17,6 @@
 
 @media (min-width:769px) {
   .intro__card {
-    /* ml=48px */
     margin-left: calc(24px +  (100vw - 769px) / (1024 - 769) * (48 - 24) );
     margin-right: auto;
     width: calc(720px +  (100vw - 769px) / (1024 - 769) * (690 - 720) );
@@ -27,18 +25,7 @@
 
 @media (min-width: 1025px) {
   .intro__card {
-    /* ml=148px */
     margin-left: calc(48px +  (100vw - 1025px) / (1280 - 1025) * (148 - 48) );
     width: 690px;
   }
 }
-
-/* @media (min-width: 1280px) {
-  .intro__card {
-    width: 690px; */
-    /* margin-left: calc(148px +  (100vw - 1281px) / (100vw - 1280) * ( ... - 148 ); */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    /* ^ вопросик для Миши (вопросик разрешился -- надо было убрать margin-left: auto и все работало как надо, никаких calc() не потребовалось -- ну магия ж )*/
-  /* }
-} */

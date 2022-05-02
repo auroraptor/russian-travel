@@ -1,15 +1,16 @@
 .cover {
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
   width: 100vw;
-  min-height: 62.5vw;
+  height: 62.5vw;
   margin: 16px auto 0;
-  max-width: 1184px;
+  /* max-width: 1184px; */
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  max-width: 1184px;
+  max-height: 720px;
 }
 @media (min-width: 768px) {
   .cover {
@@ -38,3 +39,4 @@
   opacity: 0.8;
   transition: opacity .5s linear;
 }
+

@@ -60,4 +60,4 @@
 /* footer__ */
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 /* mod */
-@import url(../blocks/header/__lang-link/_ru/.header__lang-link_active.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);

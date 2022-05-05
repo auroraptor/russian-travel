@@ -3,7 +3,6 @@
   position: relative;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-  max-height: 720px;
   max-width: 1184px;
   width: 100%;
   height: calc(100vw * 0.625);

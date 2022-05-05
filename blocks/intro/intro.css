@@ -1,5 +1,9 @@
 .intro {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* min-width: 288px; */
+  /* max-width: 964px; */
 }
-
 

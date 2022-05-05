@@ -1,19 +1,13 @@
 .cover {
   margin: 16px auto 0;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media (min-width: 768px) {
-  .cover {
-    margin-top: 17px;
-  }
-}
-@media (min-width: 1024px) {
-  .cover {
-    margin-top: 12px;
-  }
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  max-height: 720px;
+  max-width: 1184px;
+  width: 100%;
+  height: calc(100vw * 0.625);
+  max-height: 740px;
 }
 
 .cover::before {
@@ -32,4 +26,5 @@
   opacity: 0.8;
   transition: opacity .5s linear;
 }
+
 

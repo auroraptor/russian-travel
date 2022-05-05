@@ -1,10 +1,10 @@
 .intro__card {
-  margin-right: 16px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 288px;
-  margin: 0 auto;
+  min-width: 288px;
+  max-width: 690px;
+  margin: 0 16px;
 }
 
 @media (min-width: 425px) {
